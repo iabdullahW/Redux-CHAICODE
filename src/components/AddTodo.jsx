@@ -2,7 +2,7 @@ import { useState } from "react";
 import { addTodo } from "../features/todo/todoSlice";
 import { useDispatch } from "react-redux";
 
-function App() {
+function AddTodo() {
   const [input, setInput] = useState("");
   const dispatch = useDispatch();
 
@@ -34,4 +34,4 @@ function App() {
   );
 }
 
-export default App;
+export default AddTodo;
